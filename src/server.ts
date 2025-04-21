@@ -6,7 +6,7 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import swaggerUi from "swagger-ui-express";
-import { swaggerSpec } from "./config/swaggerConfig";
+import { swaggerSpec } from "./configs/swaggerConfig";
 
 const app = express();
 
