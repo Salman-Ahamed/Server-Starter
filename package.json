@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "server-starter",
+  "name": "server-starter-template",
   "author": "Salman Ahamed",
   "description": "An Express boilerplate backend",
   "$schema": "https://json.schemastore.org/package",
