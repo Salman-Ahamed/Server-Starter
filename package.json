@@ -4,7 +4,7 @@
   "author": "Salman Ahamed",
   "description": "An Express boilerplate backend",
   "$schema": "https://json.schemastore.org/package",
-  "repository": "https://github.com/Salman-Ahamed/Server-Starter",
+  "repository": "https://github.com/Salman-Ahamed/Server-Starter-Template",
   "module": "src/app.ts",
   "type": "commonjs",
   "license": "MIT",
