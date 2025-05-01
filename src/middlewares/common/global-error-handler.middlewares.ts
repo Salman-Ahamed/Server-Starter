@@ -1,3 +1,4 @@
+import { status } from "@/configs";
 import { NextFunction, Request, Response } from "express";
 
 export const globalErrorHandler = (
@@ -7,5 +8,5 @@ export const globalErrorHandler = (
   next: NextFunction,
 ) => {
   console.error(err.stack);
-  res.status(500).send({ message: "Internal Server Error" });
+  res.status(status.INTERNAL_ERROR).send({ message: "Internal Server Error" });
 };

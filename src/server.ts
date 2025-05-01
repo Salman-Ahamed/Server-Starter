@@ -2,13 +2,13 @@ import path from "path";
 import bodyParser from "body-parser";
 import compression from "compression";
 import cors from "cors";
-import express from "express";
+import express, { Application } from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./configs/swaggerConfig";
 
-const app = express();
+const app: Application = express();
 
 app.use(express.static(path.join(__dirname, "public")));
 
